@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 18px;
+}
