@@ -123,3 +123,32 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+.sign-up {
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    width: 70%;
+    height: 50%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.sign-up-box button {
+    color: white;
+    background: transparent;
+    border-color: white;
+    border: solid;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 12%;
+    padding: 6px;
+}
