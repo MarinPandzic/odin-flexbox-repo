@@ -67,3 +67,42 @@
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    height: 350px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+}
+
+.quote {
+    height: 350px;
+    background-color: #E5E7EB;
+}
